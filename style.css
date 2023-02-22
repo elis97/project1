@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #ffffffb0;
+}
+/*navbar*/
+.nav-link {
+  float: left !important;
+}
+.img-logo-link {
+  margin-right: 200px;
+}
+#navbarText {
+  padding: 2px 20px;
+  justify-content: space-between;
+  margin-left: 400px;
+  text-transform: uppercase;
+  max-width: fit-content;
+  justify-content: center !important;
+  font-size: 12px;
+  
+}
+.nav2{
+padding-top: 0;
+}
+.discount {
+  color: #000;
+}
+.dropdown-img {
+  width: 100px;
+  float: right;
+  display: -webkit-inline-flex;
+}
+.liquorlink {
+  display: inline-flex;
+  width:100%;
+  line-height-step: 400px;
+}
+.search-button {
+  background: url(img/search.svg) no-repeat scroll 2px;
+  background-size: 20px 20px;
+  padding-left: 32px !important;
+}
+.search-button:hover {
+  line-height: normal;
+  color: #000;
+}
+button {
+  -webkit-appearance: button;
+}
+button {
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+.shop-button {
+  background: url(img/shopping-bag.svg) no-repeat scroll 2px;
+  background-size: 20px 20px;
+  padding-left: 32px !important;
+}
+.shopform {
+  padding: 0px;
+  margin-right: 20px;
+}
+.logoLink {
+  text-align: center;
+}
+.label {
+  display: block;
+  font-family: Cambon, Georgia, serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.decorator {
+  border-bottom: 1px solid;
+  bottom: 0;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.button {
+  border: none;
+  padding: 12px 16px; /* Some padding */
+  font-size: 15px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  background-color: #f8f9fa;
+}
+
+.banner {
+  min-height: 70vh;
+  align-items: left;
+  background-color: #876052;
+}
+.banner .content {
+  max-width: 60rem;
+}
+.banner .content h3 {
+  font-size: 2rem;
+
+  color: #fff;
+}
+.banner img {
+  width: 70%;
+ 
+}
+img.imgbanner2 {
+  width: 100%; /* or any custom size */
+  height: 100%;
+  object-fit: contain;
+  position: static;
+}
+img.imgbanner1{
+  margin-left: 18px;
+}
+
+
+
+.all {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 10w80px) {
+  .banner img {
+    width: 100%;
+  }
+}
